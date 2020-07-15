@@ -1,6 +1,6 @@
 # React.js Template
 
-this is a template for projects in React.js, I use
+This is a template for projects in React.js, I use
 webpack, babel and stylus for this template
 
 If you like give me a star!!
