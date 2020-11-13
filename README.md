@@ -1,7 +1,6 @@
-# React.js Template
+# Serempre
 
-This is a template for projects in React.js, I use
-webpack, babel and stylus for this template
+This is a test for Serempre.
 
 If you like give me a star!!
 
