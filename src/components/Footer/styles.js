@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Foot = styled.footer`
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -10,6 +10,7 @@ export const Foot = styled.footer`
   border-top: 1px solid #d2d2d7;
   padding-top: 23px;
   padding-bottom: 23px;
+  
   @media (min-width: 768px) {
     padding-top: 28px;
     padding-bottom: 28px;
