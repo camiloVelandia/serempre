@@ -19,16 +19,12 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/**
- * Remove the margin in all browsers.
- */
-
 
 
 body {
   margin: 0;
-  font-family: 'Circular Std', sans-serif;
-  background-color:#f8f8f8;
+  font-family:   'Circular Std', sans-serif;
+  background-color:#fff;
 }
 
 `;

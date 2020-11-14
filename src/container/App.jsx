@@ -1,13 +1,15 @@
 import React from "react";
 import GlobalFonts from '../assets/fonts/circular/fonts';
 import GlobalSTyle from '../GlobalStyles'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 const App = () => {
   return (
     <>
-    <GlobalFonts/>
     <GlobalSTyle/>
-      <h1>My template</h1>
-      <p>By: Camilo Velandia || @xander_coder</p>
+    <GlobalFonts/>
+    <Header/>
+    <Footer/>
     </>
   );
 };

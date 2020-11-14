@@ -9,8 +9,7 @@ export default createGlobalStyle`
  
 @font-face {
     font-family: 'Circular Std Book';
-    src: local('Circular Std Book'), local('Circular Std Book'),
-    url(${CircularBook}) format('woff');
+     src: url(${CircularBook}) format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -21,8 +20,7 @@ export default createGlobalStyle`
 
 @font-face {
     font-family: 'Circular Std';
-    src: local('Circular Std'), local('Circular Std'),
-    url(${CircularMd}) format('woff');
+    src: url(${CircularMd}) format('opentype');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -30,8 +28,7 @@ export default createGlobalStyle`
 
 @font-face {
     font-family: 'Circular Std';
-   src: local('Circular Std'), local('Circular Std'),
-    url(${CircularBl}) format('woff');
+    src: url(${CircularBl}) format('opentype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
