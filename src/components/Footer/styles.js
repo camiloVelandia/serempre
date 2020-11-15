@@ -10,14 +10,18 @@ export const Foot = styled.footer`
   border-top: 1px solid #d2d2d7;
   padding-top: 23px;
   padding-bottom: 23px;
-  
+  padding-right:32px;
   @media (min-width: 768px) {
     padding-top: 28px;
     padding-bottom: 28px;
+    padding-right:113px;
+    padding-left:113px;
   }
   @media (min-width: 1280px) {
     padding-top: 64px;
     padding-bottom: 64px;
+    padding-right:106px;
+    padding-left:112px;
   }
 `;
 

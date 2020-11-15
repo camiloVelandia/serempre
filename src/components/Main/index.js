@@ -3,12 +3,28 @@ import {Content} from './styles'
 
 import Specification from '../Specification'
 import Features from '../Features'
+import Color from '../Color'
+import Name from '../Name'
+import Tabs from '../Tabs'
+import Icones from '../Icones'
+import Gallery from '../Gallery'
 
 const Main = () => {
   return (
     <Content>
-      <section></section>
       <section>
+    <Gallery/>
+        <div className="big"s>
+          <Icones />
+        </div>
+      </section>
+      <section>
+        <Name />
+        <Tabs />
+        <div className="small">
+          <Icones />
+        </div>
+        <Color />
         <Features
           title="Would you like to add extended warranty coverage?."
           aditionalPrice="25"
