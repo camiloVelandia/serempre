@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Head>
       <figure>
-        <img src={logo}/>
+        <img src={logo} alt=' serempre '/>
       </figure>
     </Head>
   );

@@ -5,11 +5,17 @@ import {Card, Price} from './styles'
 const FeatureCard = (props) => {
   return (
     <Card>
-    <div>
-      <h3>{props.title}</h3>
-      <p>{props.desc}</p>
-    </div>
-    {props.price ?  <Price><p> {`+${props.price}`}</p></Price> : ''}
+      <div>
+        <h3>{props.title}</h3>
+        {props.desc ? <p>{props.desc}</p> : ''}
+      </div>
+      {props.price ? (
+        <Price>
+          <p> {`+${props.price}`}</p>
+        </Price>
+      ) : (
+        ''
+      )}
     </Card>
   );
 };

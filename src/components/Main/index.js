@@ -1,5 +1,5 @@
-import React from 'react';
-import {Content} from './styles'
+import React, {useState, useEffect} from 'react';
+import {Content, Fixed} from './styles'
 
 import Specification from '../Specification'
 import Features from '../Features'
@@ -10,14 +10,32 @@ import Icones from '../Icones'
 import Gallery from '../Gallery'
 
 const Main = () => {
+
+  const [isScroll, setIsScroll] = useState({ class: 'not'})
+
+  const handleAnimation = () => {       
+  if (document.documentElement.scrollTop > 80) {           
+    setIsScroll({ class: 'visible' });  
+  }else{
+    setIsScroll({ class: 'not' });  
+  }
+}
+
+  useEffect(()=>{
+    window.onscroll = () => handleAnimation();  
+  })
+
   return (
     <Content>
       <section>
-    <Gallery/>
-        <div className="big"s>
-          <Icones />
-        </div>
+        <Fixed className={isScroll.class}>
+          <Gallery />
+          <div className="big" >
+            <Icones />
+          </div>
+        </Fixed>
       </section>
+
       <section>
         <Name />
         <Tabs />

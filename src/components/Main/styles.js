@@ -34,3 +34,18 @@ export const Content = styled.main`
     
   }
 `;
+
+export const Fixed = styled.div`
+  &.visible {
+    @media (min-width: 1280px) {
+    position: sticky;
+    top: 20px;
+    height:72vh;
+    & section:first-child{
+      margin-bottom:40px;
+    }
+    }
+  }
+  /* top:0; */
+`;
+

@@ -16,35 +16,38 @@ const Gallery = () => {
     <Container>
       <Main>
         <figure>
-          <img src={bigImg} />
+          <img alt="product image" loading="lazy" src={bigImg} />
         </figure>
       </Main>
       <Options>
         <button
+          aria-label="image of product"
           onClick={() => {
             setBigImg(image1);
           }}
         >
           <figure>
-            <img src={img1} />
+            <img alt="product image" loading="lazy" src={img1}  />
           </figure>
         </button>
         <button
+          aria-label="image of product"
           onClick={() => {
             setBigImg(image2);
           }}
         >
           <figure>
-            <img src={img2} />
+            <img alt="product image" loading="lazy" src={img2} />
           </figure>
         </button>
         <button
+          aria-label="image of product"
           onClick={() => {
             setBigImg(image3);
           }}
         >
           <figure>
-            <img src={img3} />
+            <img alt="product image" loading="lazy" src={img3} />
           </figure>
         </button>
       </Options>

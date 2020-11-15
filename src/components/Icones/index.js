@@ -10,19 +10,19 @@ const Icones = () => {
     <Container>
       <Item>
         <figure>
-          <img src={hand} />
+          <img alt="icon feature" src={hand} />
         </figure>
         <p>Customizable Touch Controls </p>
       </Item>
       <Item>
         <figure>
-          <img src={noise} />
+          <img alt="icon feature" src={noise} />
         </figure>
         <p>Active Noise Cancellation </p>
       </Item>
       <Item>
         <figure>
-          <img src={bars} />
+          <img alt="icon feature" src={bars} />
         </figure>
         <p>Built-in Equalizer </p>
       </Item>

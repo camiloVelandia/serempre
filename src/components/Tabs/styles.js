@@ -25,9 +25,12 @@ export const Btn = styled.button`
   outline: none;
   font-weight: 500;
   color: #6b7280;
-  margin-bottom:12px;
-  cursor:pointer;
-  &.active{
+  margin-bottom: 12px;
+  cursor: pointer;
+  &:focus {
+    border-bottom: 1px solid #6b7280   ;
+  }
+  &.active {
     color: #000;
     border-bottom: 2px solid #000;
   }

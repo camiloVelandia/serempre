@@ -15,6 +15,7 @@ export const Spec = styled.section`
 export const Container = styled.div`
   padding: 17px 0;
   border-bottom: 1px solid #eeeff2;
+  
   @media (min-width: 768px) {
   justify-content: space-between;
   display: flex;

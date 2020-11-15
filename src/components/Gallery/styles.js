@@ -11,12 +11,25 @@ export const Options = styled.div`
   & button {
     background-color: transparent;
     width: 31%;
-    border: 1px solid #eeeff2;
+    border: 2px solid #eeeff2;
     border-radius: 8px;
     text-align: center;
     padding: 20px 0;
+    overflow: hidden;
     &:focus {
-      outline: 1px auto #000;
+      /* outline:none; */
+      /* outline: 1px auto #b6bcc6; */
+      outline: 2px auto #1e96d4;
+      
+      -webkit-box-shadow: 1px 1px 5px 0px #d5dce0;
+      -moz-box-shadow: 1px 1px 5px 0px #d8dce0;
+      box-shadow: 1px 1px 8px 0px #d8dce0;
+    }
+    &:hover {
+      border: 2px solid #b6bcc6;
+    }
+    &:selected {
+      border: 2px auto #1e96d4;
     }
   }
   & figure {
@@ -43,7 +56,7 @@ export const Options = styled.div`
   }
 `;
 export const Main = styled.div`
-  border: 1px solid #eeeff2;
+  border: 2px solid #eeeff2;
   border-radius: 8px;
   margin-bottom: 16px;
   & figure {
