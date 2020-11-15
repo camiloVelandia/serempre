@@ -4,6 +4,7 @@
   "description": "Template for projects in React.js",
   "main": "index.js",
   "scripts": {
+    "now-build": "npm run build",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
