@@ -4,7 +4,7 @@ Este proyecto es realizado en React.js, para los estilos yo decidi usar styled c
 me parece una solucion optima hoy en dia, para las funcionalidades use hooks y el context de React.
 la configuracion de react tambien se hizo manualmente usando webpack
 
-[Demo](https://serempre-zeta.vercel.app)
+[Demo](https://serempre.netlify.app)
 
 If you like give me a star!!
 
