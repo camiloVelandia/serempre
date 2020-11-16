@@ -1,6 +1,6 @@
 # Serempre
 
-Este proyecto es realizado en React.js, para los estilos yo deicidi usar styled components
+Este proyecto es realizado en React.js, para los estilos yo decidi usar styled components
 me parece una solucion optima hoy en dia, para las funcionalidades use hooks y el context de React.
 la configuracion de react tambien se hizo manualmente usando webpack
 
