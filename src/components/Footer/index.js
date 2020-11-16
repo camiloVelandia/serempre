@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {Foot, Info, Price ,Cost, Shop, Text} from './styles'
+import PriceContext from '../../context/PriceContext'
 
 const Footer = () => {
+  const priceContext = useContext(PriceContext);
+  console.log(priceContext)
   return (
     <Foot>
       <Text>
@@ -20,7 +23,7 @@ const Footer = () => {
 
       <Price>
         <Cost>
-          <h2>$295.95</h2>
+          <h2>${priceContext.price}</h2>
           <p>Need financing? Learn more </p>
         </Cost>
         <div>
